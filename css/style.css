@@ -1,0 +1,4 @@
+body {
+	background-color: blue; /* For older browsers which don't support gradient*/
+	background-image: radial-gradient(circle, #4169e1, #6f92fc);
+}
