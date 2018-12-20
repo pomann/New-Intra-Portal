@@ -110,7 +110,7 @@ html, body
 	background: #cccccc; 
 }
 
-.btn {
+.mybtn {
 	float: right;  
 	width: 100px; 
 	height: 50px; 
@@ -214,4 +214,8 @@ th {
 
 #confirmation {
 	border: none;
+}
+
+table {
+	font-size: 0.7em;
 }
