@@ -1,7 +1,6 @@
 html, body
 {
     height: 100%;
-    font-size: 25px;
 }
 
 .login {
@@ -93,6 +92,10 @@ html, body
 	padding: 0; 
 	color: black; 
 	width: 100%; 
+}
+
+.btn{
+	width: 103px;
 }
 
 #messages li { 
@@ -214,8 +217,4 @@ th {
 
 #confirmation {
 	border: none;
-}
-
-table {
-	font-size: 0.7em;
 }
