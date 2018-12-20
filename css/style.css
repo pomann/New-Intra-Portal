@@ -1,4 +1,208 @@
-body {
-	background-color: blue; /* For older browsers which don't support gradient*/
-	background-image: radial-gradient(circle, #4169e1, #6f92fc);
+html, body
+{
+    height: 100%;
+}
+
+.login {
+	width: 342px;
+	height: 342px;
+	background-color: white;  
+	border-radius: 10px; 
+	color: black;
+}
+
+#skill{
+	text-align: center; 
+	border-bottom: 2px solid black;
+	color: black;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 0.9em;
+}
+
+.skill_table {
+	border-right: 3px solid gray;
+	float: left; 
+	height: 470px; 
+	width: 20%;
+}
+
+.about {
+	 border-bottom: 2px solid black;
+	 color: black;
+	 margin-top: 20px;
+	 float: left;
+	 margin-left: 10px;
+	 font-size: 0.9em;
+}
+
+.desc {
+	color: black;
+	float:left;
+	margin-left: 10px;
+	font-size: 0.8em
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.cont{
+	background-color: white;  
+	border-radius: 50px; 
+	height: 80%;
+}
+
+.field {
+	height: 50px;
+	width: 100%;
+}
+
+#messages::-webkit-scrollbar {
+    width: 12px;
+    height: 500px;
+}
+
+#messages::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin: 40px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b3b3b3; 
+}
+
+#messages { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	color: black; 
+	width: 100%; 
+	height: 90%; 
+	padding: 40px;
+	overflow-y: scroll;
+}
+
+#messages li { 
+	padding: 5px 10px; 
+	border-radius: 20px; 
+	height: 100px; 
+	margin-bottom: 10px;
+}
+
+#messages li:nth-child(odd) { 
+	background: #e6e6e6; 
+}
+
+#messages li:nth-child(even) { 
+	background: #cccccc; 
+}
+
+.btn {
+	float: right;  
+	width: 100px; 
+	height: 50px; 
+	margin-top: 20px; 
+	background-color: #404040; 
+	border-radius: 20px;
+	color: white;
+}
+
+.desc_btn{
+	color:white;
+	float:right;
+	border: none;
+	width: 150px;
+	height: 75px;
+	font-size: 0.8em;
+	margin-right: 10px;
+	background-color: red;
+	border-radius: 50px;
+}
+
+.cv_btn {
+	margin-left: 45%;
+	color:white;
+	border: none;
+	width: 150px;
+	height: 75px;
+	font-size: 0.8em;
+	background-color: blue;
+	border-radius: 50px;
+}
+
+.green{
+	background-color: green;
+}
+
+.index_submit{
+	background-color: #4169e1;
+	float: right; 
+	margin-top: 30px; 
+	color: white; 
+	border: 1px solid #4169e1; 
+	height: 40px; 
+	border-radius: 5px
+}
+
+.job_text {
+	font-size: 30px;
+	margin-left: 40px;
+}
+
+#menu{
+	height: 50px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px solid black;
+}
+
+.item {
+	width: 25%;
+	height: 50px;
+	float: left;
+	border-right: 1px solid black;
+}
+
+.item:last-child {
+	border-right: 0px;
+	border-top-right-radius: 40px;
+}
+
+.item:first-child {
+	border-top-left-radius: 40px;
+}
+
+.item:hover {
+	background-color: #4169e1;
+	color: white;
+}
+
+#interview {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.btnconfirm {
+	float: left;
+	width: 100px;
+	height: 30px;
+	background-color: #404040;
+	border-radius: 8px;
+	color: white;
+}
+
+th {
+	border-left: 2px solid #4169e1
+}
+
+#confirmation {
+	border: none;
 }
